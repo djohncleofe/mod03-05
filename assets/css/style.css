@@ -1,0 +1,153 @@
+
+/*universal selector*/
+
+* {
+	font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+	margin: 0;
+}
+
+.container {
+	width: 700px;
+	margin: 0 auto;
+	background-color: #04042D;
+	color: white;
+}
+
+header {
+	background-color: black;
+	height: 70px;
+	color: #fff;
+	text-align: center;
+	line-height: 70px;
+	font-size: 10px;
+}
+
+footer {
+	background-color: black; /*grey*/
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	color: #fff;
+}
+
+#footp {
+	margin-top: 0;
+}
+
+main {
+	background-image: url(http://kerrydarksky.com/wp-content/uploads/2014/09/PO-from-Hong-Kong...august-2014-1200x-1024x682.jpg);
+}
+
+.dashboard-thumbnail {
+	display: inline-block;
+	width: 40%;
+	height: 100px;
+}
+
+.dashboard-circles {
+	height: 70px;
+	width: 70px;
+	background-color: red;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 70px;
+	color: #fff;
+	margin-right: 20px;
+	float: left;
+}
+
+#post-circle {
+	background-color: #000080;
+	margin-left: 60px;
+	border-color: #C0C0C0;
+	border-style: solid;
+	border-width: thin;
+}
+
+#image-circle {
+	background-color: #C0C0C0;
+	margin-left: 60px;
+	border-color: black;
+	border-style: solid;
+	border-width: thin;
+}
+
+#post-title {
+	width: 100%;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+	border-color: black;
+}
+
+#post-content{
+	width: 100%;
+	height: 100px;
+	padding: 10px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+	border-color: black;
+}
+
+.btn {
+	border: none;
+	padding: 15px 30px;
+	font-size: 14px;
+	border-radius: 100px;
+	color: white; /*off white*/
+}
+
+.btn-blue {
+	background-color: #C0C0C0; /*blue*/
+}
+
+.btn-green {
+	background-color: #000080; /*green*/
+}
+
+#btn-browse {
+	margin-left: 20px;
+}
+
+.hide-overflow {
+	overflow: hidden;
+}
+
+.img-set {
+	height: 70px;
+	width: 100px;
+	background-color: #C0C0C0;
+	padding: 5px; /*one px all sides apply*/
+	border-radius: 5px;
+	margin: 0 5px;
+}
+
+.img-set-holder {
+	text-align: center;
+}
+
+.inline-blocked {
+	display: inline-block;
+}
+
+.dashboard-text {
+	margin: 0; /*all side target for single element*/
+	font-size: 24px;
+	width: 100%;
+	text-align: center;
+}
+
+main {
+	padding: 20px; /*all side target for single element*/
+}
+
+#btn-publish,
+#btn-upload,
+#btn-browse {
+	float: right;
+} /*target multiple elements use comma for each elemement*/
